@@ -4,7 +4,15 @@
 
 In this project, various techniques to train and evaluate a model based on loan risk. Using a dataset of historical lending activity from a peer-to-peer lending services company we built a model that can identify the creditworthiness of borrowers.
 
-The data has multiple features : - the size of the loan (loan_size) - its interest rate (interest_rate) - the borrower's income (borrower_income) - the debt to income ratio (debt_to_income) - the number of accounts the borrower holds (num_of_accounts) - derogatory marks against the borrower (derogatory_marks) - the total debt (total_debt)
+The data has multiple features :
+
+- the size of the loan (loan_size)
+- its interest rate (interest_rate)
+- the borrower's income (borrower_income)
+- the debt to income ratio (debt_to_income)
+- the number of accounts the borrower holds (num_of_accounts)
+- derogatory marks against the borrower (derogatory_marks)
+- the total debt (total_debt)
 
 We need to predict loan_status(A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting)
 
@@ -23,17 +31,17 @@ Following steps were performed to create a Logistic Regression Model with the Or
 ## Results
 
 **Machine Learning Model 1:**
-Precision: 94% (average)
+_Precision_: 94% (average)
 For predicting low-risk loans, the model was 100% precise, however the model was only 87% precise in predicting high-risk loans
-Accuracy: 94%
-Recall: 94% (average)
+_Accuracy_: 94%
+_Recall_: 94% (average)
 For predicting low-risk loans the model had 100% recall, but 89% recall in predicting high-risk loans
 
 **Machine Learning Model 2:**
-Precision: 94% (average)
+_Precision_: 94% (average)
 For predicting low-risk loans, the model was 100% precise, however the model was only 87% precise in predicting high-risk loans
-Accuracy: 99.59%
-Recall: 100% (average)
+_Accuracy_: 99.59%
+_Recall_: 100% (average)
 For predicting both low and high-risk loans the model had 100% recall
 
 ## Summary
