@@ -18,15 +18,11 @@ We need to predict loan_status(A value of 0 in the “loan_status” column mean
 
 Following steps were performed to create a Logistic Regression Model with the Original Data and Resampled Data:
 
-    1. Fit a logistic regression model by using the training data (X_train and y_train).
-
-    2. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
-
-    3. Evaluate the model’s performance by doing the following:
-
-    4. Generate a confusion matrix.
-
-    5. Print the classification report.
+1. Fit a logistic regression model by using the training data (X_train and y_train).
+2. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
+3. Evaluate the model’s performance by doing the following:
+   - Generate a confusion matrix.
+   - Print the classification report.
 
 ## Results
 
